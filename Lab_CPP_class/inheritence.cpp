@@ -1,5 +1,4 @@
 #include<iostream>
-#include<conio.h>
 #include<string.h>
 using namespace std;
 
@@ -34,16 +33,16 @@ class Student: public Person{
             cout << "The enrollment number" << enrol << endl;
             cout << "Program " << program << endl;
         }
-}
+};
 
 int main(){
-    clrscr();
+    
     Student std;
     std.setData();
     std.setStudent();
     std.printData();
     std.printStudent();
 
-    getch();
+    
     return 0;
 }
